@@ -1,0 +1,39 @@
+{
+  "id": "swade-expanded-interludes",
+  "title": "SWADE Expanded Interludes Table",
+  "description": "Expanded Interludes Table for Savage Worlds",
+  "authors": [
+    {
+      "name": "Jeremy Glebe",
+      "email": "jeremyglebe@gmail.com"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "swade",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": ["scripts/module.js"],
+  "packs": [
+    {
+      "name": "expanded-interlude-tables",
+      "label": "Expanded Interludes Tables",
+      "path": "packs/expanded-interlude-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "swade",
+      "flags": {}
+    }
+  ]
+}

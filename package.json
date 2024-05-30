@@ -1,0 +1,20 @@
+{
+  "name": "swade-expanded-interludes",
+  "version": "0.1.0",
+  "description": "Expanded Interludes Table for Savage Worlds",
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:copy": "node utilities/reverse-copy-packs.js && tsc && vite build"
+  },
+  "packageManager": "yarn@4.2.2",
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "sass": "^1.74.1",
+    "typescript": "^5.4.4",
+    "vite": "^5.2.8"
+  }
+}
